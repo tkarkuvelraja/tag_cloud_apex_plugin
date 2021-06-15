@@ -1,0 +1,35 @@
+{
+  "name" : "Tag Cloud Chart",
+  "version" : "1.0",
+  "description" : "A tag cloud, otherwise known as a word cloud or weighted list, is a visual representation of text data. This chart is typically used to show keyword metadata (tags) on websites, or to visualize free form text. Tags are usually single words, and the importance of each tag, which is often based on its frequency, is shown with font size or color.",
+  "keywords" : ["Tag Cloud Chart","World Cloud","Weighted List","Region"],
+  "homepage" : "https://github.com/tkarkuvelraja/tag_cloud_apex_plugin",
+  "bugs" : {
+    "url" : "https://github.com/tkarkuvelraja/tag_cloud_apex_plugin/issues",
+    "email" : "tkarkuvelraja@gmail.com"
+  },
+  "license" : "MIT",
+  "commercial" : "No",
+  "author" : {
+    "name" : "Karkuvelraja Thangamariappan",
+    "email" : "tkarkuvelraja@gmail.com",
+    "url" : "http://orclking.blogspot.com/",
+    "twitter" : "tkarkuvelraja"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/tkarkuvelraja/tag_cloud_apex_plugin.git"
+  },
+  "oracle" : {
+    "versions" : ["12.1.0.1", "12.2.0.1", "18.4.0.0", "19.0.0.0.0", "19.2.0.0.19", "21.0.0.0.0", "21.1.0.0.0", "21.1.0.0.1"],
+    "apex" : {
+      "versions" : ["20.1.0.00.13", "20.2.0.00.20", "21.1.0"],
+      "plugin" : {
+        "internalName" : "ORCLKING.TAG.CLOUD",
+        "type" : "region",
+        "demo" : "https://apex.oracle.com/pls/apex/f?p=133110:9999::BRANCH_TO_PAGE_ACCEPT::9999:P9999_APP_PAGE_REDIRECT:2",
+        "previewImage" : "https://raw.githubusercontent.com/tkarkuvelraja/tag_cloud_apex_plugin/master/TagCloudChartPreview.gif"
+      }
+    }
+  }
+}
